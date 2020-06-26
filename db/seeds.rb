@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 require 'faker'
-require 'bcrypt'
+# require 'bcrypt'
 
 Trainer.delete_all
 User.delete_all
@@ -41,7 +41,7 @@ Trainer.create(name: "Rohan Reddy", image:"https://production-next-images-cdn.th
 puts "events"
 
 Event.create(title: "Group Adult beginner swimming lesson", trainer_id:4, start: "2020-07-19T18:00:00",
-end: "2020-07-q9T19:00:00", details:"work on learning to swim ", allDay:false, event_type:"swimming")
+end: "2020-07-19T19:00:00", details:"work on learning to swim ", allDay:false, event_type:"swimming")
 
 Event.create(title: "Group Adult advanced swimming lesson", trainer_id:4, start: "2020-07-23T18:00:00",
 end: "2020-07-23T19:00:00", details:"work on building stroke technique ", allDay:false, event_type:"swimming")
@@ -56,18 +56,18 @@ Event.create(title: "private swim lesson", trainer_id:4, start: "2020-07-18", en
 Event.create(title: 'free trail best tennis lesson', trainer_id:5, start: "2020-07-11T13:00:00", end: "2020-07-11T14:00:00", details:"work on learning how to playing tennis", allDay:false, event_type:"tennis")
 
 
-Event.create(title: 'on one one private tennis lesson', trainer_id:5, start: "2020-07-12T13:00:00", end: "2020-07-18T14:00:00", details:"work on learning to playing tennis or building technique", allDay:false, event_type:"tennis")
+Event.create(title: 'on one one private tennis lesson', trainer_id:5, start: "2020-07-12T13:00:00", end: "2020-07-15T14:00:00", details:"work on learning to playing tennis or building technique", allDay:false, event_type:"tennis")
 
 
-Event.create(title: 'yoga lesson', trainer_id:1, start: "2020-07-10T08:00:00", end: "2020-07-23T09:00:00", details:"Building your body", allDay:false, event_type:"Yoga")
+Event.create(title: 'yoga lesson', trainer_id:1, start: "2020-07-10T08:00:00", end: "2020-07-13T09:00:00", details:"Building your body", allDay:false, event_type:"Yoga")
 
-Event.create(title: 'Kickboxing lesson', trainer_id:2, start: "2020-07-10T18:00:00", end: "2020-07-23T19:00:00", details:"Rock your body", allDay:false, event_type:"Kickboxing")
+Event.create(title: 'Kickboxing lesson', trainer_id:2, start: "2020-07-10T18:00:00", end: "2020-07-13T19:00:00", details:"Rock your body", allDay:false, event_type:"Kickboxing")
 
 Event.create(title: 'private Strength lesson', trainer_id:3, start: "2020-07-13T019:30:00", end: "2020-07-20T20:30:00", details:"Rock your body", allDay:false, event_type:"Strength")
 
 puts "user"
 20.times do
-  User.create(username: Faker::Internet.unique.username, password_digest: "123", email: Faker::Internet.unique.safe_email, image: Faker::Avatar.unique.image, phone_number: Faker::PhoneNumber.cell_phone)
+  User.create(username: Faker::Internet.unique.username, password_digest: "123", email: Faker::Internet.unique.safe_email, image: Faker::Avatar.unique.image, phone_number: Faker::Number.number(digits: 10))
 end
 
 puts 'comment'
