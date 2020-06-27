@@ -40,30 +40,30 @@ Trainer.create(name: "Rohan Reddy", image:"https://production-next-images-cdn.th
 
 puts "events"
 
-Event.create(title: "Group Adult beginner swimming lesson", trainer_id:4, start: "2020-07-19T18:00:00",
-end: "2020-07-19T19:00:00", details:"work on learning to swim ", allDay:false, event_type:"swimming")
+Event.create(title: "swimming lesson", trainer_id:4, start: "2020-07-19T18:00:00",
+end: "2020-07-19T19:00:00", details:"Group swim lesson, work on building stroke technique.", allDay:false, event_type:"group")
 
-Event.create(title: "Group Adult advanced swimming lesson", trainer_id:4, start: "2020-07-23T18:00:00",
-end: "2020-07-23T19:00:00", details:"work on building stroke technique ", allDay:false, event_type:"swimming")
+Event.create(title: "swimming lesson", trainer_id:4, start: "2020-07-23T18:00:00",
+end: "2020-07-23T19:00:00", details:"Group swim lesson, work on building stroke technique.", allDay:false, event_type:"group")
 
-Event.create(title: "private swim lesson", trainer_id:4, start: "2020-07-25", end: "2020-07-26", details:"work on learning to swim or building stroke technique ", allDay:false, event_type:"swimming")
+Event.create(title: "swim lesson", trainer_id:4, start: "2020-07-25T07:00:00", end: "2020-07-25T08:00:00", details:"One one one lesson, work on learning to swim or building stroke technique ", allDay:false, event_type:"priavte")
 
-Event.create(title: "private swim lesson", trainer_id:4, start: "2020-07-11", end: "2020-07-12", details:"work on learning to swim or building stroke technique ", allDay:false, event_type:"swimming")
+Event.create(title: "swim lesson", trainer_id:4, start: "2020-07-11T19:00:00", end: "2020-07-11T20:00:00", details:"Group lesson, work on learning to swim or building stroke technique ", allDay:false, event_type:"gorup")
 
-Event.create(title: "private swim lesson", trainer_id:4, start: "2020-07-18", end: "2020-07-19", details:"work on learning to swim or building stroke technique ", allDay:false, event_type:"swimming")
-
-
-Event.create(title: 'free trail best tennis lesson', trainer_id:5, start: "2020-07-11T13:00:00", end: "2020-07-11T14:00:00", details:"work on learning how to playing tennis", allDay:false, event_type:"tennis")
+Event.create(title: "swim lesson", trainer_id:4, start: "2020-07-18T07:00:00", end: "2020-07-18T08:00:00", details:"One one one lesson, work on learning to swim or building stroke technique ", allDay:false, event_type:"private")
 
 
-Event.create(title: 'on one one private tennis lesson', trainer_id:5, start: "2020-07-12T13:00:00", end: "2020-07-15T14:00:00", details:"work on learning to playing tennis or building technique", allDay:false, event_type:"tennis")
+Event.create(title: 'free trail tennis lesson', trainer_id:5, start: "2020-07-11T13:00:00", end: "2020-07-11T14:00:00", details:"Group lesson, work on learning how to playing tennis", allDay:false, event_type:"group")
 
 
-Event.create(title: 'yoga lesson', trainer_id:1, start: "2020-07-10T08:00:00", end: "2020-07-13T09:00:00", details:"Building your body", allDay:false, event_type:"Yoga")
+Event.create(title: 'tennis lesson', trainer_id:5, start: "2020-07-12T13:00:00", end: "2020-07-12T14:00:00", details:"One one one lesson, work on learning to playing tennis or building technique", allDay:false, event_type:"private")
 
-Event.create(title: 'Kickboxing lesson', trainer_id:2, start: "2020-07-10T18:00:00", end: "2020-07-13T19:00:00", details:"Rock your body", allDay:false, event_type:"Kickboxing")
 
-Event.create(title: 'private Strength lesson', trainer_id:3, start: "2020-07-13T019:30:00", end: "2020-07-20T20:30:00", details:"Rock your body", allDay:false, event_type:"Strength")
+Event.create(title: 'yoga lesson', trainer_id:1, start: "2020-07-10T08:00:00", end: "2020-07-10T09:00:00", details:"One one one lesson, building your body", allDay:false, event_type:"private")
+
+Event.create(title: 'Kickboxing lesson', trainer_id:2, start: "2020-07-11T18:00:00", end: "2020-07-11T19:00:00", details:"Group lesson, rock your body", allDay:false, event_type:"group")
+
+Event.create(title: 'Strength lesson', trainer_id:3, start: "2020-07-20T019:30:00", end: "2020-07-20T20:30:00", details:"Group lesson, rock your body", allDay:false, event_type:"group")
 
 puts "user"
 20.times do
