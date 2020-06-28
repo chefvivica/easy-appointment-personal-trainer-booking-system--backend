@@ -53,17 +53,17 @@ Event.create(title: "swim lesson", trainer_id:4, start: "2020-07-11T19:00:00", e
 Event.create(title: "swim lesson", trainer_id:4, start: "2020-07-18T07:00:00", end: "2020-07-18T08:00:00", details:"One one one lesson, work on learning to swim or building stroke technique ", allDay:false, event_type:"private")
 
 
-Event.create(title: 'free trail tennis lesson', trainer_id:5, start: "2020-07-11T13:00:00", end: "2020-07-11T14:00:00", details:"Group lesson, work on learning how to playing tennis", allDay:false, event_type:"group")
+Event.create(title: 'free trail best tennis lesson', trainer_id:5, start: "2020-07-11T13:00:00", end: "2020-07-11T14:00:00", details:"Group lesson, work on learning how to playing tennis", allDay:false, event_type:"group")
 
 
 Event.create(title: 'tennis lesson', trainer_id:5, start: "2020-07-12T13:00:00", end: "2020-07-12T14:00:00", details:"One one one lesson, work on learning to playing tennis or building technique", allDay:false, event_type:"private")
 
 
-Event.create(title: 'yoga lesson', trainer_id:1, start: "2020-07-10T08:00:00", end: "2020-07-10T09:00:00", details:"One one one lesson, building your body", allDay:false, event_type:"private")
+Event.create(title: 'yoga lesson', trainer_id:1, start: "2020-07-10T08:00:00", end: "2020-07-10T09:00:00", details:"One one one lesson, uilding your body", allDay:false, event_type:"private")
 
-Event.create(title: 'Kickboxing lesson', trainer_id:2, start: "2020-07-11T18:00:00", end: "2020-07-11T19:00:00", details:"Group lesson, rock your body", allDay:false, event_type:"group")
+Event.create(title: 'Kickboxing lesson', trainer_id:2, start: "2020-07-11T18:00:00", end: "2020-07-11T19:00:00", details:"Group lesson, Rock your body", allDay:false, event_type:"group")
 
-Event.create(title: 'Strength lesson', trainer_id:3, start: "2020-07-20T019:30:00", end: "2020-07-20T20:30:00", details:"Group lesson, rock your body", allDay:false, event_type:"group")
+Event.create(title: 'Strength lesson', trainer_id:3, start: "2020-07-20T019:30:00", end: "2020-07-20T20:30:00", details:"Rock your body", allDay:false, event_type:"group")
 
 puts "user"
 20.times do
