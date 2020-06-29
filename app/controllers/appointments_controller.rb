@@ -13,7 +13,6 @@ class AppointmentsController < ApplicationController
   end
 
 
-  
 
   def delete
     appointment = Appointment.find(params[:id])

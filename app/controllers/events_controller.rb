@@ -17,16 +17,6 @@ class EventsController < ApplicationController
     }, :except => [:created_at,:updated_at])  
   end
 
-  # def appiontment
-  #   event = Event.find(params[:id])
-
-  #   appiontment= Appiontment.create({
-  #     user_id: user_id,
-  #     event: event,
-  #   })
-  #   render json: appiontment
-  # end
-
   def create
     event = Event.new(event_params)
     event.save

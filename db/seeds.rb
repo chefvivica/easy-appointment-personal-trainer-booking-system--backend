@@ -59,7 +59,7 @@ Event.create(title: 'free trail best tennis lesson', trainer_id:5, start: "2020-
 Event.create(title: 'tennis lesson', trainer_id:5, start: "2020-07-12T13:00:00", end: "2020-07-12T14:00:00", details:"One one one lesson, work on learning to playing tennis or building technique", allDay:false, event_type:"private")
 
 
-Event.create(title: 'yoga lesson', trainer_id:1, start: "2020-07-10T08:00:00", end: "2020-07-10T09:00:00", details:"One one one lesson, uilding your body", allDay:false, event_type:"private")
+Event.create(title: 'yoga lesson', trainer_id:1, start: "2020-07-10T08:00:00", end: "2020-07-10T09:00:00", details:"One one one lesson, building your body", allDay:false, event_type:"private")
 
 Event.create(title: 'Kickboxing lesson', trainer_id:2, start: "2020-07-11T18:00:00", end: "2020-07-11T19:00:00", details:"Group lesson, Rock your body", allDay:false, event_type:"group")
 
