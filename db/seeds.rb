@@ -41,34 +41,41 @@ Trainer.create(name: "Rohan Reddy", image:"https://production-next-images-cdn.th
 puts "events"
 
 Event.create(title: "swimming lesson", trainer_id:4, start: "2020-07-19T18:00:00",
-end: "2020-07-19T19:00:00", details:"Group swim lesson, work on building stroke technique.", allDay:false, event_type:"group")
+end: "2020-07-19T19:00:00", details:"Group swim lesson, work on building stroke technique.", allDay:false, timeZone:'UTC', event_type:"group")
 
 Event.create(title: "swimming lesson", trainer_id:4, start: "2020-07-23T18:00:00",
-end: "2020-07-23T19:00:00", details:"Group swim lesson, work on building stroke technique.", allDay:false, event_type:"group")
+end: "2020-07-23T19:00:00", details:"Group swim lesson, work on building stroke technique.", allDay:false, timeZone:'UTC', event_type:"group")
 
-Event.create(title: "swim lesson", trainer_id:4, start: "2020-07-25T07:00:00", end: "2020-07-25T08:00:00", details:"One one one lesson, work on learning to swim or building stroke technique ", allDay:false, event_type:"priavte")
+# Event.create(title: "swim lesson", trainer_id:4, start: "2020-07-25T07:00:00", end: "2020-07-25T08:00:00", details:"One one one lesson, work on learning to swim or building stroke technique ", allDay:false, event_type:"priavte")
 
-Event.create(title: "swim lesson", trainer_id:4, start: "2020-07-11T19:00:00", end: "2020-07-11T20:00:00", details:"Group lesson, work on learning to swim or building stroke technique ", allDay:false, event_type:"gorup")
+# Event.create(title: "swim lesson", trainer_id:4, start: "2020-07-11T19:00:00", end: "2020-07-11T20:00:00", details:"Group lesson, work on learning to swim or building stroke technique ", allDay:false, event_type:"gorup")
 
-Event.create(title: "swim lesson", trainer_id:4, start: "2020-07-18T07:00:00", end: "2020-07-18T08:00:00", details:"One one one lesson, work on learning to swim or building stroke technique ", allDay:false, event_type:"private")
-
-
-Event.create(title: 'free trail best tennis lesson', trainer_id:5, start: "2020-07-11T13:00:00", end: "2020-07-11T14:00:00", details:"Group lesson, work on learning how to playing tennis", allDay:false, event_type:"group")
+# Event.create(title: "swim lesson", trainer_id:4, start: "2020-07-18T07:00:00", end: "2020-07-18T08:00:00", details:"One one one lesson, work on learning to swim or building stroke technique ", allDay:false, event_type:"private")
 
 
-Event.create(title: 'tennis lesson', trainer_id:5, start: "2020-07-12T13:00:00", end: "2020-07-12T14:00:00", details:"One one one lesson, work on learning to playing tennis or building technique", allDay:false, event_type:"private")
+# Event.create(title: 'free trail best tennis lesson', trainer_id:5, start: "2020-07-11T13:00:00", end: "2020-07-11T14:00:00", details:"Group lesson, work on learning how to playing tennis", allDay:false, event_type:"group")
 
 
-Event.create(title: 'yoga lesson', trainer_id:1, start: "2020-07-10T08:00:00", end: "2020-07-10T09:00:00", details:"One one one lesson, building your body", allDay:false, event_type:"private")
+# Event.create(title: 'tennis lesson', trainer_id:5, start: "2020-07-12T13:00:00", end: "2020-07-12T14:00:00", details:"One one one lesson, work on learning to playing tennis or building technique", allDay:false, event_type:"private")
 
-Event.create(title: 'Kickboxing lesson', trainer_id:2, start: "2020-07-11T18:00:00", end: "2020-07-11T19:00:00", details:"Group lesson, Rock your body", allDay:false, event_type:"group")
 
-Event.create(title: 'Strength lesson', trainer_id:3, start: "2020-07-20T019:30:00", end: "2020-07-20T20:30:00", details:"Rock your body", allDay:false, event_type:"group")
+# Event.create(title: 'yoga lesson', trainer_id:1, start: "2020-07-10T08:00:00", end: "2020-07-10T09:00:00", details:"One one one lesson, building your body", allDay:false, event_type:"private")
+
+# Event.create(title: 'Kickboxing lesson', trainer_id:2, start: "2020-07-11T18:00:00", end: "2020-07-11T19:00:00", details:"Group lesson, Rock your body", allDay:false, event_type:"group")
+
+# Event.create(title: 'Strength lesson', trainer_id:3, start: "2020-07-20T019:30:00", end: "2020-07-20T20:30:00", details:"Rock your body", allDay:false, event_type:"group")
 
 puts "user"
 20.times do
   User.create(username: Faker::Internet.unique.username, password_digest: "123", email: Faker::Internet.unique.safe_email, image: Faker::Avatar.unique.image, phone_number: Faker::Number.number(digits: 10))
 end
+
+
+puts "Appointment"
+
+50.times do 
+Appointment.create(user_id: User.all.sample.id, event_id: Event.all.sample.id);
+end 
 
 puts 'comment'
 
@@ -97,13 +104,6 @@ Comment.create(user_id: User.all.sample.id, trainer_id:4, content: ' My son love
 Comment.create(user_id: User.all.sample.id, trainer_id:5, content: ' I only started working with Rohan for a short period of time, but he has helped elevate my game to the next level. Whether it be working on technique, tactics, endurance or just rallying, Rohan is highly trained in all areas. He has the ability to teach anyone ranging from beginners to advanced players as he has a lot of experience himself competing at the national level. I highly recommend Rohan as a tennis coach', rating:5)
 Comment.create(user_id: User.all.sample.id, trainer_id:5, content: ' Working with Rohan has been an absolute pleasure. Not only did Rohan give me a great workout every time we played, but he also made me a much better tennis player.', rating:5)
 Comment.create(user_id: User.all.sample.id, trainer_id:5, content: ' I highly recommend Rohan as a tennis coach for anyone looking to improve their game. He is very professional and works hard to make sure that his clients improve and have fun at the same time. He is a great coach!', rating:5)
-
-puts "Appointment"
-
-50.times do 
-Appointment.create(user_id: User.all.sample.id, event_id: Event.all.sample.id);
-end 
-
 
 
 
