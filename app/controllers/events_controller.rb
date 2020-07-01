@@ -38,6 +38,7 @@ class EventsController < ApplicationController
   def delete
     event = Event.find(params[:id])
     event.destroy
+    render json: event.to_json  
   end
 
   private
