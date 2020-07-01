@@ -7,7 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 require 'faker'
-# require 'bcrypt'
+require 'rest-client'
+require 'json'
 
 Trainer.delete_all
 User.delete_all
@@ -65,10 +66,24 @@ Event.create(title: 'Kickboxing lesson', trainer_id:2, start: "2020-07-11T18:00:
 
 Event.create(title: 'Strength lesson', trainer_id:3, start: "2020-07-20T019:30:00", end: "2020-07-20T20:30:00", details:"Rock your body", allDay:false, event_type:"group")
 
+
+url = RestClient.get("https://randomuser.me/api/?results=100&inc=name,picture,phone,email")
+results = JSON.parse(url)["results"]
+data = results
+
 puts "user"
-20.times do
-  User.create(username: Faker::Internet.unique.username, password_digest: "123", email: Faker::Internet.unique.safe_email, image: Faker::Avatar.unique.image, phone_number: Faker::Number.number(digits: 10))
-end
+data.each do |user_hash| 
+  User.create(username: user_hash['name']['last'], email: user_hash['email'], phone_number: user_hash['phone'], image: user_hash['picture']['medium'])
+end 
+
+
+
+
+puts "Appointment"
+
+50.times do 
+Appointment.create(user_id: User.all.sample.id, event_id: Event.all.sample.id);
+end 
 
 puts 'comment'
 
@@ -97,13 +112,6 @@ Comment.create(user_id: User.all.sample.id, trainer_id:4, content: ' My son love
 Comment.create(user_id: User.all.sample.id, trainer_id:5, content: ' I only started working with Rohan for a short period of time, but he has helped elevate my game to the next level. Whether it be working on technique, tactics, endurance or just rallying, Rohan is highly trained in all areas. He has the ability to teach anyone ranging from beginners to advanced players as he has a lot of experience himself competing at the national level. I highly recommend Rohan as a tennis coach', rating:5)
 Comment.create(user_id: User.all.sample.id, trainer_id:5, content: ' Working with Rohan has been an absolute pleasure. Not only did Rohan give me a great workout every time we played, but he also made me a much better tennis player.', rating:5)
 Comment.create(user_id: User.all.sample.id, trainer_id:5, content: ' I highly recommend Rohan as a tennis coach for anyone looking to improve their game. He is very professional and works hard to make sure that his clients improve and have fun at the same time. He is a great coach!', rating:5)
-
-puts "Appointment"
-
-50.times do 
-Appointment.create(user_id: User.all.sample.id, event_id: Event.all.sample.id);
-end 
-
 
 
 

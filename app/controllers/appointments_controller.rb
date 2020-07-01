@@ -14,9 +14,11 @@ class AppointmentsController < ApplicationController
 
 
 
-  def delete
+  def destroy
+    # byebug
     appointment = Appointment.find(params[:id])
     appointment.destroy
+    render json: appointment.to_json  
   end
 
   private
