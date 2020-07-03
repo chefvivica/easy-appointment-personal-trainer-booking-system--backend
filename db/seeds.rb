@@ -47,105 +47,105 @@ Trainer.create(name: "Gan Laughlin ", image:"https://images.unsplash.com/photo-1
 
 puts "events"
 
-Event.create(title: "Beginner Ocean Swimming", trainer_id:2, start: "2020-07-19T18:00:00", end: "2020-07-19T19:00:00", details:"Marcis Berzins teaches beginners to swim in the ocean. In less than 10 days, Marcis can take you from treading water to swimming for an hour in the ocean.", allDay:false, event_type:"group")
+Event.create(title: "Ocean Swimming", trainer_id:2, start: "2020-07-19T18:00:00", end: "2020-07-19T19:00:00", details:"Marcis Berzins teaches beginners to swim in the ocean. In less than 10 days, Marcis can take you from treading water to swimming for an hour in the ocean.", allDay:false, event_type:"group")
 
-Event.create(title: "Beginner Ocean Swimming", trainer_id:2, start: "2020-07-23T18:00:00", end: "2020-07-23T19:00:00", details:"Marcis Berzins teaches beginners to swim in the ocean. In less than 10 days, Marcis can take you from treading water to swimming for an hour in the ocean.", allDay:false, event_type:"group")
+Event.create(title: "Ocean Swimming", trainer_id:2, start: "2020-07-23T18:00:00", end: "2020-07-23T19:00:00", details:"Marcis Berzins teaches beginners to swim in the ocean. In less than 10 days, Marcis can take you from treading water to swimming for an hour in the ocean.", allDay:false, event_type:"group")
 
-Event.create(title: "Beginner Ocean Swimming", trainer_id:2, start: "2020-07-28T18:00:00", end: "2020-07-28T19:00:00", details:"Marcis Berzins teaches beginners to swim in the ocean. In less than 10 days, Marcis can take you from treading water to swimming for an hour in the ocean.", allDay:false, event_type:"group")
+Event.create(title: "Ocean Swimming", trainer_id:2, start: "2020-07-28T18:00:00", end: "2020-07-28T19:00:00", details:"Marcis Berzins teaches beginners to swim in the ocean. In less than 10 days, Marcis can take you from treading water to swimming for an hour in the ocean.", allDay:false, event_type:"group")
 
-Event.create(title: "Beginner Ocean Swimming", trainer_id:2, start: "2020-07-31T18:00:00", end: "2020-07-31T19:00:00", details:"Group, work on learning to swim or building stroke technique ", allDay:false, event_type:"gorup")
+Event.create(title: "Ocean Swimming", trainer_id:2, start: "2020-07-31T18:00:00", end: "2020-07-31T19:00:00", details:"Group, work on learning to swim or building stroke technique ", allDay:false, event_type:"gorup")
 
-Event.create(title: "Beginner Ocean Swimming", trainer_id:2, start: "2020-08-05T18:00:00", end: "2020-08-05T19:00:00", details:"Marcis Berzins teaches beginners to swim in the ocean. In less than 10 days, Marcis can take you from treading water to swimming for an hour in the ocean.", allDay:false, event_type:"group")
+Event.create(title: "Ocean Swimming", trainer_id:2, start: "2020-08-05T18:00:00", end: "2020-08-05T19:00:00", details:"Marcis Berzins teaches beginners to swim in the ocean. In less than 10 days, Marcis can take you from treading water to swimming for an hour in the ocean.", allDay:false, event_type:"group")
 
-Event.create(title: "Beginner Ocean Swimming", trainer_id:2, start: "2020-08-10T18:00:00", end: "2020-08-10T19:00:00", details:"Marcis Berzins teaches beginners to swim in the ocean. In less than 10 days, Marcis can take you from treading water to swimming for an hour in the ocean.", allDay:false, event_type:"group")
+Event.create(title: "Ocean Swimming", trainer_id:2, start: "2020-08-10T18:00:00", end: "2020-08-10T19:00:00", details:"Marcis Berzins teaches beginners to swim in the ocean. In less than 10 days, Marcis can take you from treading water to swimming for an hour in the ocean.", allDay:false, event_type:"group")
 
-Event.create(title: "Beginner Ocean Swimming", trainer_id:2, start: "2020-08-13T18:00:00", end: "2020-08-13T19:00:00", details:"Marcis Berzins teaches beginners to swim in the ocean. In less than 10 days, Marcis can take you from treading water to swimming for an hour in the ocean.
+Event.create(title: "Ocean Swimming", trainer_id:2, start: "2020-08-13T18:00:00", end: "2020-08-13T19:00:00", details:"Marcis Berzins teaches beginners to swim in the ocean. In less than 10 days, Marcis can take you from treading water to swimming for an hour in the ocean.
 ", allDay:false, event_type:"group")
 
 
 
 
-Event.create(title: 'free trail tennis', trainer_id:5, start: "2020-07-11T13:00:00", end: "2020-07-11T14:00:00", details:"Group, work on learning how to playing tennis", allDay:false, event_type:"group")
+Event.create(title: 'Free trail tennis', trainer_id:5, start: "2020-07-11T13:00:00", end: "2020-07-11T14:00:00", details:"Best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy!", allDay:false, event_type:"group")
 
 
-Event.create(title: 'free trail tennis', trainer_id:5, start: "2020-07-12T13:00:00", end: "2020-07-12T14:00:00", details:"best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy! ", allDay:false, event_type:"group")
+Event.create(title: 'Free trail tennis', trainer_id:5, start: "2020-07-12T13:00:00", end: "2020-07-12T14:00:00", details:"Best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy! ", allDay:false, event_type:"group")
 
-Event.create(title: 'free trail tennis', trainer_id:5, start: "2020-07-16T13:00:00", end: "2020-07-16T14:00:00", details:", best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy! ", allDay:false, event_type:"group")
+Event.create(title: 'Free trail tennis', trainer_id:5, start: "2020-07-16T13:00:00", end: "2020-07-16T14:00:00", details:"Best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy! ", allDay:false, event_type:"group")
 
-Event.create(title: 'free trail tennis' , trainer_id:5, start: "2020-07-19T13:00:00", end: "2020-07-19T14:00:00", details:", best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy! ", allDay:false, event_type:"group")
+Event.create(title: 'Free trail tennis', trainer_id:5, start: "2020-07-19T13:00:00", end: "2020-07-19T14:00:00", details:"Best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy! ", allDay:false, event_type:"group")
 
-Event.create(title: 'advance tennis', trainer_id:5, start: "2020-08-12T13:00:00", end: "2020-08-12T14:00:00", details:", work on building technique", allDay:false, event_type:"group")
+Event.create(title: 'Advance tennis', trainer_id:5, start: "2020-08-12T13:00:00", end: "2020-08-12T14:00:00", details:"Work on building technique", allDay:false, event_type:"group")
 
-Event.create(title: 'advance tennis', trainer_id:5, start: "2020-08-16T13:00:00", end: "2020-08-16T14:00:00", details:", work on building technique", allDay:false, event_type:"group")
-
-
-Event.create(title: 'Yoga for Office Sitters', trainer_id:6, start: "2020-07-01T08:00:00", end: "2020-07-01T09:00:00", details:", focusing on hip, knee, and ankle flexibility. If your back or hips hurt after sitting in the office every day, Sonnie can open your posture so you can feel good again.", allDay:false, event_type:"group")
-
-Event.create(title: 'Yoga for Office Sitters', trainer_id:6, start: "2020-07-07T08:00:00", end: "2020-07-07T09:00:00", details:", focuseing on hip, knee, and ankle flexibility. If your back or hips hurt after sitting in the office every day, Sonnie can open your posture so you can feel good again.", allDay:false, event_type:"group")
-
-Event.create(title: 'Yoga for Office Sitters', trainer_id:6, start: "2020-07-15T08:00:00", end: "2020-07-15T09:00:00", details:", focuseing on hip, knee, and ankle flexibility. If your back or hips hurt after sitting in the office every day, Sonnie can open your posture so you can feel good again.", allDay:false, event_type:"group")
-
-Event.create(title: 'Yoga for Office Sitters', trainer_id:6, start: "2020-08-06T08:00:00", end: "2020-08-06T09:00:00", details:", focuseing on hip, knee, and ankle flexibility. If your back or hips hurt after sitting in the office every day, Sonnie can open your posture so you can feel good again.", allDay:false, event_type:"group")
-
-Event.create(title: 'Yoga for Office Sitters', trainer_id:6, start: "2020-08-28T08:00:00", end: "2020-08-28T09:00:00", details:", focuseing on hip, knee, and ankle flexibility. If your back or hips hurt after sitting in the office every day, Sonnie can open your posture so you can feel good again.", allDay:false, event_type:"group")
+Event.create(title: 'Advance tennis', trainer_id:5, start: "2020-08-16T13:00:00", end: "2020-08-16T14:00:00", details:"Work on building technique", allDay:false, event_type:"group")
 
 
+Event.create(title: 'Sitting Yoga ', trainer_id:6, start: "2020-07-01T08:00:00", end: "2020-07-01T09:00:00", details:"Focusing on hip, knee, and ankle flexibility. If your back or hips hurt after sitting in the office every day, Sonnie can open your posture so you can feel good again.", allDay:false, event_type:"group")
 
-Event.create(title: 'Build Mass', trainer_id:1, start: "2020-07-02T10:00:00", end: "2020-0702-T11:00:00", details:"Group, Rock your body, Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
+Event.create(title: 'Sitting Yoga ', trainer_id:6, start: "2020-07-07T08:00:00", end: "2020-07-07T09:00:00", details:"Focusing on hip, knee, and ankle flexibility. If your back or hips hurt after sitting in the office every day, Sonnie can open your posture so you can feel good again.", allDay:false, event_type:"group")
+
+Event.create(title: 'Sitting Yoga ', trainer_id:6, start: "2020-07-15T08:00:00", end: "2020-07-15T09:00:00", details: "Focusing on hip, knee, and ankle flexibility. If your back or hips hurt after sitting in the office every day, Sonnie can open your posture so you can feel good again.", allDay:false, event_type:"group")
+
+Event.create(title: 'Sitting Yoga ', trainer_id:6, start: "2020-08-06T08:00:00", end: "2020-08-06T09:00:00", details:"Focusing on hip, knee, and ankle flexibility. If your back or hips hurt after sitting in the office every day, Sonnie can open your posture so you can feel good again.", allDay:false, event_type:"group")
+
+Event.create(title: 'Sitting Yoga ', trainer_id:6, start: "2020-08-28T08:00:00", end: "2020-08-28T09:00:00", details:"Focusing on hip, knee, and ankle flexibility. If your back or hips hurt after sitting in the office every day, Sonnie can open your posture so you can feel good again.", allDay:false, event_type:"group")
+
+
+
+Event.create(title: 'Build Mass', trainer_id:1, start: "2020-07-02T10:00:00", end: "2020-0702-T11:00:00", details:"Rock your body! Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
 ", allDay:false, event_type:"group")
 
-Event.create(title: 'Build Mass', trainer_id:1, start: "2020-07-08T10:00:00", end: "2020-07-08T11:00:00", details:"Group, Rock your body, Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
+Event.create(title: 'Build Mass', trainer_id:1, start: "2020-07-08T10:00:00", end: "2020-07-08T11:00:00", details:"Rock your body! Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
 ", allDay:false, event_type:"group")
 
-Event.create(title: 'Build Mass', trainer_id:1, start: "2020-07-14T10:00:00", end: "2020-07-14T11:00:00", details:"Group, Rock your body, Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
+Event.create(title: 'Build Mass', trainer_id:1, start: "2020-07-14T10:00:00", end: "2020-07-14T11:00:00", details:"Rock your body! Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
 ", allDay:false, event_type:"group")
 
-Event.create(title: 'Build Mass', trainer_id:1, start: "2020-07-17T10:00:00", end: "2020-07-17T11:00:00", details:"Group, Rock your body, Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
+Event.create(title: 'Build Mass', trainer_id:1, start: "2020-07-17T10:00:00", end: "2020-07-17T11:00:00", details:"Rock your body! Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
 ", allDay:false, event_type:"group")
 
-Event.create(title: 'Build Mass', trainer_id:1, start: "2020-07-27T10:00:00", end: "2020-07-27T11:00:00", details:"Group, Rock your body, Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
+Event.create(title: 'Build Mass', trainer_id:1, start: "2020-07-27T10:00:00", end: "2020-07-27T11:00:00", details:"Rock your body! Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
 ", allDay:false, event_type:"group")
 
-Event.create(title: 'Build Mass', trainer_id:1, start: "2020-08-03T10:00:00", end: "2020-08-03T11:00:00", details:"Group, Rock your body, Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
+Event.create(title: 'Build Mass', trainer_id:1, start: "2020-08-03T10:00:00", end: "2020-08-03T11:00:00", details:"Rock your body! Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
 ", allDay:false, event_type:"group")
 
-Event.create(title: 'Build Mass', trainer_id:1, start: "2020-08-09T10:00:00", end: "2020-08-09T11:00:00", details:"Group, Rock your body, Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
+Event.create(title: 'Build Mass', trainer_id:1, start: "2020-08-09T10:00:00", end: "2020-08-09T11:00:00", details:"Rock your body! Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
 ", allDay:false, event_type:"group")
 
-Event.create(title: 'Build Mass', trainer_id:1, start: "2020-08-27T10:00:00", end: "2020-08-27T11:00:00", details:"Group, Rock your body, Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
+Event.create(title: 'Build Mass', trainer_id:1, start: "2020-08-27T10:00:00", end: "2020-08-27T11:00:00", details:"Rock your body! Amilie Weaver is a male hypertrophy coach. She helps you build mass, build size and look good. 
 ", allDay:false, event_type:"group")
 
 
 
-Event.create(title: 'Self Defense on Heavy Bags', trainer_id: 4, start: "2020-07-28T019:30:00", end: "2020-07-28T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, event_type:"group")
-Event.create(title: 'Self Defense on Heavy Bags', trainer_id: 4, start: "2020-08-02T019:30:00", end: "2020-08-02T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, event_type:"group")
-Event.create(title: 'Self Defense on Heavy Bags', trainer_id: 4, start: "2020-08-03T019:30:00", end: "2020-08-03T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, event_type:"group")
-Event.create(title: 'Self Defense on Heavy Bags', trainer_id: 4, start: "2020-08-07T019:30:00", end: "2020-08-07T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, event_type:"group")
-Event.create(title: 'Self Defense on Heavy Bags', trainer_id: 4, start: "2020-08-12T019:30:00", end: "2020-08-12T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, event_type:"group")
-Event.create(title: 'Self Defense on Heavy Bags', trainer_id: 4, start: "2020-08-17T019:30:00", end: "2020-08-17T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, event_type:"group")
+Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-07-28T019:30:00", end: "2020-07-28T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, event_type:"group")
+Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-02T019:30:00", end: "2020-08-02T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, event_type:"group")
+Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-03T019:30:00", end: "2020-08-03T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, event_type:"group")
+Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-07T019:30:00", end: "2020-08-07T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, event_type:"group")
+Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-12T019:30:00", end: "2020-08-12T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, event_type:"group")
+Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-17T019:30:00", end: "2020-08-17T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, event_type:"group")
 
 
 
-Event.create(title: ' Energy Boost Training', trainer_id: 7, start: "2020-07-10T03-00-00", end: "2020-07-10T07-00-00", details:" Do you have low energy? Gin Boldu coaches sessions that don’t tire you out and can increase your energy so you don’t feel tired by 2pm. Training sessions start at 3am with the last session at 7am.", allDay:false, event_type:"group")
-Event.create(title: ' Energy Boost Training', trainer_id: 7, start: "2020-07-13T03-00-00", end: "2020-07-13T07-00-00", details:" Do you have low energy? Gin Boldu coaches sessions that don’t tire you out and can increase your energy so you don’t feel tired by 2pm. Training sessions start at 3am with the last session at 7am.", allDay:false, event_type:"group")
-Event.create(title: ' Energy Boost Training', trainer_id: 7, start: "2020-07-14T03-00-00", end: "2020-07-14T07-00-00", details:" Do you have low energy? Gin Boldu coaches sessions that don’t tire you out and can increase your energy so you don’t feel tired by 2pm. Training sessions start at 3am with the last session at 7am.", allDay:false, event_type:"group")
-Event.create(title: ' Energy Boost Training', trainer_id: 7, start: "2020-07-19T03-00-00", end: "2020-07-19T07-00-00", details:" Do you have low energy? Gin Boldu coaches sessions that don’t tire you out and can increase your energy so you don’t feel tired by 2pm. Training sessions start at 3am with the last session at 7am.", allDay:false, event_type:"group")
-Event.create(title: ' Energy Boost Training', trainer_id: 7, start: "2020-07-22T03-00-00", end: "2020-07-22T07-00-00", details:" Do you have low energy? Gin Boldu coaches sessions that don’t tire you out and can increase your energy so you don’t feel tired by 2pm. Training sessions start at 3am with the last session at 7am.", allDay:false, event_type:"group")
-Event.create(title: ' Energy Boost Training', trainer_id: 7, start: "2020-07-29T03-00-00", end: "2020-07-29T07-00-00", details:" Do you have low energy? Gin Boldu coaches sessions that don’t tire you out and can increase your energy so you don’t feel tired by 2pm. Training sessions start at 3am with the last session at 7am.", allDay:false, event_type:"group")
+Event.create(title: ' Energy Boost', trainer_id: 7, start: "2020-07-10T03-00-00", end: "2020-07-10T07-00-00", details:" Do you have low energy? Gin Boldu coaches sessions that don’t tire you out and can increase your energy so you don’t feel tired by 2pm. Training sessions start at 3am with the last session at 7am.", allDay:false, event_type:"group")
+Event.create(title: ' Energy Boost', trainer_id: 7, start: "2020-07-13T03-00-00", end: "2020-07-13T07-00-00", details:" Do you have low energy? Gin Boldu coaches sessions that don’t tire you out and can increase your energy so you don’t feel tired by 2pm. Training sessions start at 3am with the last session at 7am.", allDay:false, event_type:"group")
+Event.create(title: ' Energy Boost', trainer_id: 7, start: "2020-07-14T03-00-00", end: "2020-07-14T07-00-00", details:" Do you have low energy? Gin Boldu coaches sessions that don’t tire you out and can increase your energy so you don’t feel tired by 2pm. Training sessions start at 3am with the last session at 7am.", allDay:false, event_type:"group")
+Event.create(title: ' Energy Boost', trainer_id: 7, start: "2020-07-19T03-00-00", end: "2020-07-19T07-00-00", details:" Do you have low energy? Gin Boldu coaches sessions that don’t tire you out and can increase your energy so you don’t feel tired by 2pm. Training sessions start at 3am with the last session at 7am.", allDay:false, event_type:"group")
+Event.create(title: ' Energy Boost', trainer_id: 7, start: "2020-07-22T03-00-00", end: "2020-07-22T07-00-00", details:" Do you have low energy? Gin Boldu coaches sessions that don’t tire you out and can increase your energy so you don’t feel tired by 2pm. Training sessions start at 3am with the last session at 7am.", allDay:false, event_type:"group")
+Event.create(title: ' Energy Boost', trainer_id: 7, start: "2020-07-29T03-00-00", end: "2020-07-29T07-00-00", details:" Do you have low energy? Gin Boldu coaches sessions that don’t tire you out and can increase your energy so you don’t feel tired by 2pm. Training sessions start at 3am with the last session at 7am.", allDay:false, event_type:"group")
 
 
 
-Event.create(title: ' Running Parts Unknown', trainer_id: 8, start: "2020-07-19T06:00:00", end: "2020-07-19T07:00:00", details:" Tikkho’s running sessions are conducted in the most beautiful parts of the world. Come run with Tikkho and see a new perspective on traveling. Once you book a session, Tikkho will give you travel instructions to his current location. 
+Event.create(title: ' Running Unknown', trainer_id: 8, start: "2020-07-19T06:00:00", end: "2020-07-19T07:00:00", details:" Tikkho’s running sessions are conducted in the most beautiful parts of the world. Come run with Tikkho and see a new perspective on traveling. Once you book a session, Tikkho will give you travel instructions to his current location. 
 ", allDay:false, event_type:"group")
-Event.create(title: ' Running Parts Unknown', trainer_id: 8, start: "2020-07-20T06:00:00", end: "2020-07-20T07:00:00", details:" Tikkho’s running sessions are conducted in the most beautiful parts of the world. Come run with Tikkho and see a new perspective on traveling. Once you book a session, Tikkho will give you travel instructions to his current location. 
+Event.create(title: ' Running Unknown', trainer_id: 8, start: "2020-07-20T06:00:00", end: "2020-07-20T07:00:00", details:" Tikkho’s running sessions are conducted in the most beautiful parts of the world. Come run with Tikkho and see a new perspective on traveling. Once you book a session, Tikkho will give you travel instructions to his current location. 
 ", allDay:false, event_type:"group")
-Event.create(title: ' Running Parts Unknown', trainer_id: 8, start: "2020-07-21T06:00:00", end: "2020-07-21T07:00:00", details:" Tikkho’s running sessions are conducted in the most beautiful parts of the world. Come run with Tikkho and see a new perspective on traveling. Once you book a session, Tikkho will give you travel instructions to his current location. 
+Event.create(title: ' Running Unknown', trainer_id: 8, start: "2020-07-21T06:00:00", end: "2020-07-21T07:00:00", details:" Tikkho’s running sessions are conducted in the most beautiful parts of the world. Come run with Tikkho and see a new perspective on traveling. Once you book a session, Tikkho will give you travel instructions to his current location. 
 ", allDay:false, event_type:"group")
-Event.create(title: ' Running Parts Unknown', trainer_id: 8, start: "2020-07-22T06:00:00", end: "2020-07-22T07:00:00", details:" Tikkho’s running sessions are conducted in the most beautiful parts of the world. Come run with Tikkho and see a new perspective on traveling. Once you book a session, Tikkho will give you travel instructions to his current location. 
+Event.create(title: ' Running Unknown', trainer_id: 8, start: "2020-07-22T06:00:00", end: "2020-07-22T07:00:00", details:" Tikkho’s running sessions are conducted in the most beautiful parts of the world. Come run with Tikkho and see a new perspective on traveling. Once you book a session, Tikkho will give you travel instructions to his current location. 
 ", allDay:false, event_type:"group")
-Event.create(title: ' Running Parts Unknown', trainer_id: 8, start: "2020-07-23T06:00:00", end: "2020-07-23T07:00:00", details:" Tikkho’s running sessions are conducted in the most beautiful parts of the world. Come run with Tikkho and see a new perspective on traveling. Once you book a session, Tikkho will give you travel instructions to his current location. 
+Event.create(title: ' Running Unknown', trainer_id: 8, start: "2020-07-23T06:00:00", end: "2020-07-23T07:00:00", details:" Tikkho’s running sessions are conducted in the most beautiful parts of the world. Come run with Tikkho and see a new perspective on traveling. Once you book a session, Tikkho will give you travel instructions to his current location. 
 ", allDay:false, event_type:"group")
-Event.create(title: ' Running Parts Unknown', trainer_id: 8, start: "2020-07-24T06:00:00", end: "2020-07-24T07:00:00", details:" Tikkho’s running sessions are conducted in the most beautiful parts of the world. Come run with Tikkho and see a new perspective on traveling. Once you book a session, Tikkho will give you travel instructions to his current location. 
+Event.create(title: ' Running Unknown', trainer_id: 8, start: "2020-07-24T06:00:00", end: "2020-07-24T07:00:00", details:" Tikkho’s running sessions are conducted in the most beautiful parts of the world. Come run with Tikkho and see a new perspective on traveling. Once you book a session, Tikkho will give you travel instructions to his current location. 
 ", allDay:false, event_type:"group")
 
 
@@ -179,10 +179,10 @@ Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-08-29T17:30
 Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-09-05T17:30:00:00", end: "2020-09-05T18:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, event_type:"group")
 
 
-Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-03T08:30:00:00", end: "2020-07-03T09:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, event_type:"group")
-Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-10T08:30:00:00", end: "2020-07-10T09:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, event_type:"group")
-Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-17T08:30:00:00", end: "2020-07-17T09:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, event_type:"group")
-Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-24T08:30:00:00", end: "2020-07-24T09:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, event_type:"group")
+Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-03T08:30:00:00", end: "2020-07-03T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, event_type:"group")
+Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-10T08:30:00:00", end: "2020-07-10T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, event_type:"group")
+Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-17T08:30:00:00", end: "2020-07-17T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, event_type:"group")
+Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-24T08:30:00:00", end: "2020-07-24T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, event_type:"group")
 
 
 
