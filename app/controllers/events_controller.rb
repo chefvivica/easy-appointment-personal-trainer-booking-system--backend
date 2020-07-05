@@ -4,7 +4,7 @@ class EventsController < ApplicationController
     events = Event.all
     render json: events.to_json(:include => {
       :users => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image]}
+      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
     }, :except => [:created_at,:updated_at])  
   end
 
@@ -13,7 +13,7 @@ class EventsController < ApplicationController
     event = Event.find(params[:id])
     render json: event.to_json(:include => {
       :users => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image]}
+      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
     }, :except => [:created_at,:updated_at])  
   end
 
@@ -22,7 +22,7 @@ class EventsController < ApplicationController
     event.save
     render json: event.to_json(:include => {
       :users => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image]}
+      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
     }, :except => [:created_at,:updated_at])  
   end
 
@@ -31,7 +31,7 @@ class EventsController < ApplicationController
     event.update(event_params)
     render json: event.to_json(:include => {
       :users => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image]}
+      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
     }, :except => [:created_at,:updated_at])  
   end
 

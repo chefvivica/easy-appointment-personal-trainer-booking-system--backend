@@ -3,7 +3,7 @@ class RequestsController < ApplicationController
     requests = Request.all
     render json: requests.to_json(:include => {
       :user => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image]}
+      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
     }, :except => [:created_at,:updated_at])  
   end
 
@@ -12,7 +12,7 @@ class RequestsController < ApplicationController
     request = Request.find(params[:id])
     render json: request.to_json(:include => {
       :user => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image]}
+      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
     }, :except => [:created_at,:updated_at])  
   end
 
@@ -21,7 +21,7 @@ class RequestsController < ApplicationController
     request.save
     render json: request.to_json(:include => {
       :user => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image]}
+      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
     }, :except => [:created_at,:updated_at])  
   end
 
@@ -30,7 +30,7 @@ class RequestsController < ApplicationController
     request.update(request_params)
     render json: request.to_json(:include => {
       :user => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image]}
+      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
     }, :except => [:created_at,:updated_at])  
   end
 
@@ -43,7 +43,7 @@ class RequestsController < ApplicationController
   private
 
   def request_params
-    params.require(:request).permit(:title, :start, :end, :details, :allDay, :trainer_id, :request_type)
+    params.require(:request).permit(:user_id, :title, :detail, :start, :end, :trainer_id)
   end
 
 end

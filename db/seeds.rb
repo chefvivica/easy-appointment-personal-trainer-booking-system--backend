@@ -18,29 +18,27 @@ Request.delete_all
 
 puts "Trainer"
 
-Trainer.create(name: "Amil Weaver", image:"https://images.unsplash.com/photo-1549476464-37392f717541?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80", bio:'Build Mass. Amil Weaver is a male hypertrophy coach. He helps you build mass, build size and look good.')
+Trainer.create(name: "Amil Weaver", image:"https://images.unsplash.com/photo-1549476464-37392f717541?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80", bio:'Build Mass. Amil Weaver is a male hypertrophy coach. He helps you build mass, build size and look good.', sports:"Build Mass")
 
-Trainer.create(name: "Marcis Berzins", image:"https://images.unsplash.com/photo-1568014887261-7c68ead310e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1233&q=80", bio:'Marcis Berzins teaches beginners to swim in the ocean. In less than 10 days, Marcis can take you from treading water to swimming for an hour in the ocean.')
+Trainer.create(name: "Marcis Berzins", image:"https://images.unsplash.com/photo-1568014887261-7c68ead310e7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1233&q=80", bio:'Marcis Berzins teaches beginners to swim in the ocean. In less than 10 days, Marcis can take you from treading water to swimming for an hour in the ocean.',sports:"Swimming" )
 
-Trainer.create(name: "Zhi Sun.", image:"https://production-next-images-cdn.thumbtack.com/i/370562357469405185/width/2200.webp", bio:'My name is Zhi Sun, I started my professional training career at Equinox midtown, and worked myself to become a high end tier trainer. So, I had the opportunity to work with clients of varying levels of fitness.')
+Trainer.create(name: "Zhi Sun.", image:"https://production-next-images-cdn.thumbtack.com/i/370562357469405185/width/2200.webp", bio:'My name is Zhi Sun, I started my professional training career at Equinox midtown, and worked myself to become a high end tier trainer. So, I had the opportunity to work with clients of varying levels of fitness.',sports:"Fitness")
 
-Trainer.create(name: "Logan Weaver", image:"https://images.unsplash.com/photo-1590074180817-58bc844c728c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80", bio:'Logan Weaver can teach you to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.')
+Trainer.create(name: "Logan Weaver", image:"https://images.unsplash.com/photo-1590074180817-58bc844c728c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80", bio:'Logan Weaver can teach you to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.',sports:"Self Defense")
 
-Trainer.create(name: "Rohan Reddy", image:"https://production-next-images-cdn.thumbtack.com/i/391394100657881100/desktop/standard/400square-legacy", bio:'Hi, my name is Rohan Reddy and I am a top ranked junior tennis player in New York and the United States, looking to spread the knowledge I have amassed over the years, by teaching private tennis lessons. I have been playing tennis for around 15 years now, and I am ranked top 5 in New York and top 70 in the United States. With the current situation regarding COVID-19, I have a private outdoor tennis court that is isolated from others and in great condition. All social distancing rules will be applied during lessons to ensure safety.')
+Trainer.create(name: "Rohan Reddy", image:"https://production-next-images-cdn.thumbtack.com/i/391394100657881100/desktop/standard/400square-legacy", bio:'Hi, my name is Rohan Reddy and I am a top ranked junior tennis player in New York and the United States, looking to spread the knowledge I have amassed over the years, by teaching private tennis lessons. I have been playing tennis for around 15 years now, and I am ranked top 5 in New York and top 70 in the United States. With the current situation regarding COVID-19, I have a private outdoor tennis court that is isolated from others and in great condition. All social distancing rules will be applied during lessons to ensure safety.',sports:"Tennis")
 
-Trainer.create(name: "Sonnie Hiles", image:"https://images.unsplash.com/photo-1593358578872-4772d9cd7a97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80", bio:'Sonnie Hiles is a yoga instructor that focuses on hip, knee, and ankle flexibility. If your back or hips hurt after sitting in the office every day, Sonnie can open your posture so you can feel good again.')
+Trainer.create(name: "Sonnie Hiles", image:"https://images.unsplash.com/photo-1593358578872-4772d9cd7a97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80", bio:'Sonnie Hiles is a yoga instructor that focuses on hip, knee, and ankle flexibility. If your back or hips hurt after sitting in the office every day, Sonnie can open your posture so you can feel good again.',sports:"Yoga")
 
-Trainer.create(name: " Gin Boldu", image:"https://images.unsplash.com/photo-1575859694244-0b337bf58e0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80", bio:'Do you have low energy? Gin Boldu coaches sessions that don’t tire you out and can increase your energy so you don’t feel tired by 2pm. Training sessions start at 3am with the last session at 7am.  ')
+Trainer.create(name: " Gin Boldu", image:"https://images.unsplash.com/photo-1575859694244-0b337bf58e0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80", bio:'Do you have low energy? Gin Boldu coaches sessions that don’t tire you out and can increase your energy so you don’t feel tired by 2pm. Training sessions start at 3am with the last session at 7am.', sports:"Energy training")
 
-Trainer.create(name: " Tikkho Guerra", image:"https://images.unsplash.com/photo-1510078344547-e481316148ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80", bio:'Tikkho’s running sessions are conducted in the most beautiful parts of the world. Come run with Tikkho and see a new perspective on traveling. Once you book a session, Tikkho will give you travel instructions to his current location. ')
+Trainer.create(name: " Tikkho Guerra", image:"https://images.unsplash.com/photo-1510078344547-e481316148ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80", bio:'Tikkho’s running sessions are conducted in the most beautiful parts of the world. Come run with Tikkho and see a new perspective on traveling. Once you book a session, Tikkho will give you travel instructions to his current location.', sports:"Running")
 
-Trainer.create(name: "Abi Keenan", image:"https://images.unsplash.com/photo-1591258370682-e8ade5d3da40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjkzMjh9&auto=format&fit=crop&w=1234&q=80", bio:' Abi Keenan can make your knees feel fluid again. Your knees will feel healthy after 10 sessions, you’ll be able to jump and play sports again. You won’t believe how much better and stronger your knees will feel  ')
-Trainer.create(name: "Olenka Kotyk", image:"https://images.unsplash.com/photo-1567720359666-1cf6be3d5fa3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1233&q=80", bio:' Olenka Kotyk will teach you how to dance more beautifully than you ever imagined possible. She will teach you to be more flexible and elongate your muscles so you grow taller. ')
+Trainer.create(name: "Abi Keenan", image:"https://images.unsplash.com/photo-1591258370682-e8ade5d3da40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjkzMjh9&auto=format&fit=crop&w=1234&q=80", bio:' Abi Keenan can make your knees feel fluid again. Your knees will feel healthy after 10 sessions, you’ll be able to jump and play sports again. You won’t believe how much better and stronger your knees will feel', sports:"Knee exercises")
+Trainer.create(name: "Olenka Kotyk", image:"https://images.unsplash.com/photo-1567720359666-1cf6be3d5fa3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1233&q=80", bio:' Olenka Kotyk will teach you how to dance more beautifully than you ever imagined possible. She will teach you to be more flexible and elongate your muscles so you grow taller.', sports:"Dancing")
 
-Trainer.create(name: "Alora Griffiths", image:"https://images.unsplash.com/photo-1533560904424-a0c61dc306fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80", bio:' Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size. 
-  ')
-Trainer.create(name: "Gan Laughlin ", image:"https://images.unsplash.com/photo-1540206107877-29bb00ad2810?ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80", bio:' Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.
-  ')
+Trainer.create(name: "Alora Griffiths", image:"https://images.unsplash.com/photo-1533560904424-a0c61dc306fc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80", bio:' Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.', sports:"Upper body strenth")
+Trainer.create(name: "Gan Laughlin ", image:"https://images.unsplash.com/photo-1540206107877-29bb00ad2810?ixlib=rb-1.2.1&auto=format&fit=crop&w=1234&q=80", bio:' Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.', sports:"Jumping")
 
 
 
@@ -65,14 +63,14 @@ Event.create(title: "Ocean Swimming", trainer_id:2, start: "2020-08-13T18:00:00"
 
 
 
-Event.create(title: 'Free trail tennis', trainer_id:5, start: "2020-07-11T13:00:00", end: "2020-07-11T14:00:00", details:"Best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy!", allDay:false, event_type:"group")
+Event.create(title: 'Beginner tennis', trainer_id:5, start: "2020-07-11T13:00:00", end: "2020-07-11T14:00:00", details:"Best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy!", allDay:false, event_type:"group")
 
 
-Event.create(title: 'Free trail tennis', trainer_id:5, start: "2020-07-12T13:00:00", end: "2020-07-12T14:00:00", details:"Best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy! ", allDay:false, event_type:"group")
+Event.create(title: 'Beginner tennis', trainer_id:5, start: "2020-07-12T13:00:00", end: "2020-07-12T14:00:00", details:"Best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy! ", allDay:false, event_type:"group")
 
-Event.create(title: 'Free trail tennis', trainer_id:5, start: "2020-07-16T13:00:00", end: "2020-07-16T14:00:00", details:"Best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy! ", allDay:false, event_type:"group")
+Event.create(title: 'Beginner tennis', trainer_id:5, start: "2020-07-16T13:00:00", end: "2020-07-16T14:00:00", details:"Best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy! ", allDay:false, event_type:"group")
 
-Event.create(title: 'Free trail tennis', trainer_id:5, start: "2020-07-19T13:00:00", end: "2020-07-19T14:00:00", details:"Best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy! ", allDay:false, event_type:"group")
+Event.create(title: 'Beginner tennis', trainer_id:5, start: "2020-07-19T13:00:00", end: "2020-07-19T14:00:00", details:"Best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy! ", allDay:false, event_type:"group")
 
 Event.create(title: 'Advance tennis', trainer_id:5, start: "2020-08-12T13:00:00", end: "2020-08-12T14:00:00", details:"Work on building technique", allDay:false, event_type:"group")
 
