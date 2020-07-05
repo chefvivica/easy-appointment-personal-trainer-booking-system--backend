@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_07_01_172037) do
+ActiveRecord::Schema.define(version: 2020_07_05_124009) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,25 +22,28 @@ ActiveRecord::Schema.define(version: 2020_07_01_172037) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "comments", force: :cascade do |t|
-    t.integer "trainer_id"
-    t.text "content", default: "No comment yet"
-    t.float "rating", default: 0.0
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.integer "user_id"
-  end
-
   create_table "events", force: :cascade do |t|
     t.string "title"
+    t.integer "trainer_id"
     t.string "start"
     t.string "end"
     t.text "details"
     t.boolean "allDay"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "color"
+  end
+
+  create_table "requests", force: :cascade do |t|
+    t.integer "user_id"
+    t.string "title"
+    t.text "detail"
+    t.string "start"
+    t.string "end"
     t.integer "trainer_id"
-    t.string "event_type"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "color"
   end
 
   create_table "trainers", force: :cascade do |t|
@@ -49,14 +52,15 @@ ActiveRecord::Schema.define(version: 2020_07_01_172037) do
     t.text "bio"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "sports"
   end
 
   create_table "users", force: :cascade do |t|
     t.string "username"
     t.string "password_digest"
-    t.string "phone_number", default: "123456789"
-    t.string "email", default: "example@email.com"
-    t.string "image", default: "https://st3.depositphotos.com/2703645/14581/v/450/depositphotos_145810939-stock-illustration-male-user-avatar-icon.jpg"
+    t.string "phone_number"
+    t.string "email"
+    t.string "image"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

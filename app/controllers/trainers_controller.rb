@@ -3,7 +3,6 @@ class TrainersController < ApplicationController
     trainers = Trainer.all
     render json: trainers.to_json(:include => {
       :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
-      :comments => {:only => [:content]}
     }, :except => [:created_at,:updated_at])  
   end
   
@@ -11,7 +10,6 @@ class TrainersController < ApplicationController
     trainer = Trainer.find(params[:id])
     render json: trainer.to_json(:include => {
       :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
-      :comments => {:only => [:content]}
     }, :except => [:created_at,:updated_at])   
   end
 
@@ -20,7 +18,6 @@ class TrainersController < ApplicationController
     trainer.save
     render json: trainer.to_json(:include => {
       :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
-      :comments => {:only => [:content]}
     }, :except => [:created_at,:updated_at])   
   end
 
@@ -29,7 +26,6 @@ class TrainersController < ApplicationController
     trainer.update(trainer_params)
     render json: trainer.to_json(:include => {
       :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
-      :comments => {:only => [:content]}
     }, :except => [:created_at,:updated_at]) 
   end
 

@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
+  resources :requests
   resources :trainers
-  resources :comments
   resources :appointments
   resources :events
   resources :users
