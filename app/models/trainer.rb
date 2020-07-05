@@ -1,5 +1,5 @@
 class Trainer < ApplicationRecord
+  has_many :request 
+  has_many :trainers, through: :requests
   has_many :events
-  has_many :comments
-  has_many :users, through: :comments
 end

@@ -14,7 +14,7 @@ Trainer.delete_all
 User.delete_all
 Event.delete_all
 Appointment.delete_all
-Comment.delete_all
+Request.delete_all
 
 puts "Trainer"
 
@@ -197,21 +197,15 @@ data.each do |user_hash|
 end 
 
 
-
-
 puts "Appointment"
 
 150.times do 
 Appointment.create(user_id: User.all.sample.id, event_id: Event.all.sample.id);
 end 
 
-puts 'comment'
 
-50.times do
-Comment.create(user_id: User.all.sample.id, trainer_id:Trainer.all.sample.id, content:Faker::Quotes::Chiquito.sentence, rating:5)
-end 
-
-
+puts 'request'
+Request.create(user_id: 1, title:"private swim lesson", detail: "A beginner wanted to learn how to swim", start: '2020-07-18T14:30:00', end: '2020-07-18T17:30:00', trainer_id:2)
 
 
 
