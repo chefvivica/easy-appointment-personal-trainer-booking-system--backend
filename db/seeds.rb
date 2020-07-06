@@ -189,7 +189,7 @@ puts "user"
 data.each do |user_hash| 
   User.create(username: user_hash['name']['last'], email: user_hash['email'], phone_number: user_hash['phone'], image: user_hash['picture']['medium'])
 end 
-User.create(username: vivica, email:"vivicacongma@gmail.com",phone_number: "+9178537076", image:'https://i.pinimg.com/236x/e7/bb/02/e7bb022e4cdcc7f47d2f9f20077ea6da.jpg')
+User.create(username: "vivica", email:"vivicacongma@gmail.com",phone_number: "+9178537076", image:'https://i.pinimg.com/236x/e7/bb/02/e7bb022e4cdcc7f47d2f9f20077ea6da.jpg')
 
 puts "Appointment"
 
