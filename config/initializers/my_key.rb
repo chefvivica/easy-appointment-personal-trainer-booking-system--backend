@@ -1,0 +1,1 @@
+MY_KEY = YAML.load_file("#{Rails.root}/config/my_key.yml")
