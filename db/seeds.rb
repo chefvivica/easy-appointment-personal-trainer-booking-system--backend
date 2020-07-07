@@ -63,6 +63,13 @@ Event.create(title: "Ocean Swimming", trainer_id:2, start: "2020-08-13T18:00:00"
 
 
 
+Event.create(title: "Event to prep for", trainer_id:3, start: "2020-07-22T18:00:00", end: "2020-07-22T19:00:00", details:"Zhi Sun will help you to best prep for Athletic event or competition, Vacation, Wedding", allDay:false, color:"#6495ED")
+Event.create(title: "Event to prep for", trainer_id:3, start: "2020-07-08T18:00:00", end: "2020-07-08T19:00:00", details:"Zhi Sun will help you to best prep for Athletic event or competition, Vacation, Wedding", allDay:false, color:"#6495ED")
+Event.create(title: "Event to prep for", trainer_id:3, start: "2020-07-29T18:00:00", end: "2020-07-29T19:00:00", details:"Zhi Sun will help you to best prep for Athletic event or competition, Vacation, Wedding", allDay:false, color:"#6495ED")
+Event.create(title: "Event to prep for", trainer_id:3, start: "2020-08-04T18:00:00", end: "2020-08-04T19:00:00", details:"Zhi Sun will help you to best prep for Athletic event or competition, Vacation, Wedding", allDay:false, color:"#6495ED")
+
+
+
 
 Event.create(title: 'Beginner tennis', trainer_id:5, start: "2020-07-06T13:00:00", end: "2020-07-06T14:00:00", details:"Best oppotunity to learn the tennis fundamental skill with great coach Rohan Reddy!", allDay:false, color:"#228B22")
 
@@ -116,12 +123,14 @@ Event.create(title: 'Build Mass', trainer_id:1, start: "2020-08-27T10:00:00", en
 
 
 
-Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-07-28T019:30:00", end: "2020-07-28T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, color:"#6A5ACD")
-Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-02T019:30:00", end: "2020-08-02T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, color:"#6A5ACD")
-Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-03T019:30:00", end: "2020-08-03T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, color:"#6A5ACD")
-Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-07T019:30:00", end: "2020-08-07T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, color:"#6A5ACD")
-Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-12T019:30:00", end: "2020-08-12T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, color:"#6A5ACD")
+Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-07-28T19:30:00", end: "2020-07-28T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, color:"#6A5ACD")
+Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-02T19:30:00", end: "2020-08-02T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, color:"#6A5ACD")
+Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-03T19:30:00", end: "2020-08-03T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, color:"#6A5ACD")
+Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-07T19:30:00", end: "2020-08-07T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, color:"#6A5ACD")
+Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-12T19:30:00", end: "2020-08-12T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, color:"#6A5ACD")
 Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-17T019:30:00", end: "2020-08-17T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, color:"#6A5ACD")
+Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-21T019:30:00", end: "2020-08-21T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, color:"#6A5ACD")
+Event.create(title: 'Self Defense', trainer_id: 4, start: "2020-08-28T019:30:00", end: "2020-08-28T20:30:00", details:"Learn to defend yourself and put any opponent on the ground. If you are ready for a tough trainer that can elevate your fighting, book a session with Logan.", allDay:false, color:"#6A5ACD")
 
 
 
@@ -156,13 +165,17 @@ Event.create(title: 'Reversing Knee Pain', trainer_id: 9, start: "2020-08-21T012
 
 
 
-Event.create(title: ' Dance Training', trainer_id: 10, start: "2020-07-06T18:30:00:00", end: "2020-07-06T19:30:00", details:"Olenka Kotyk will teach you how to dance more beautifully than you ever imagined possible. She will teach you to be more flexible and elongate your muscles so you grow taller.
+Event.create(title: ' Dance Training', trainer_id: 10, start: "2020-07-06T18:30:00", end: "2020-07-06T19:30:00", details:"Olenka Kotyk will teach you how to dance more beautifully than you ever imagined possible. She will teach you to be more flexible and elongate your muscles so you grow taller.
  ", allDay:false, color:"#DB7093")
-Event.create(title: ' Dance Training', trainer_id: 10, start: "2020-07-08T18:30:00:00", end: "2020-07-08T19:30:00", details:"Olenka Kotyk will teach you how to dance more beautifully than you ever imagined possible. She will teach you to be more flexible and elongate your muscles so you grow taller.
+Event.create(title: ' Dance Training', trainer_id: 10, start: "2020-07-08T18:30:00", end: "2020-07-08T19:30:00", details:"Olenka Kotyk will teach you how to dance more beautifully than you ever imagined possible. She will teach you to be more flexible and elongate your muscles so you grow taller.
  ", allDay:false, color:"#DB7093")
-Event.create(title: ' Dance Training', trainer_id: 10, start: "2020-07-10T18:30:00:00", end: "2020-07-10T19:30:00", details:"Olenka Kotyk will teach you how to dance more beautifully than you ever imagined possible. She will teach you to be more flexible and elongate your muscles so you grow taller.
+Event.create(title: ' Dance Training', trainer_id: 10, start: "2020-07-10T18:30:00", end: "2020-07-10T19:30:00", details:"Olenka Kotyk will teach you how to dance more beautifully than you ever imagined possible. She will teach you to be more flexible and elongate your muscles so you grow taller.
  ", allDay:false, color:"#DB7093")
-Event.create(title: ' Dance Training', trainer_id: 10, start: "2020-07-12T18:30:00:00", end: "2020-07-12T19:30:00", details:"Olenka Kotyk will teach you how to dance more beautifully than you ever imagined possible. She will teach you to be more flexible and elongate your muscles so you grow taller.
+Event.create(title: ' Dance Training', trainer_id: 10, start: "2020-07-12T18:30:00", end: "2020-07-12T19:30:00", details:"Olenka Kotyk will teach you how to dance more beautifully than you ever imagined possible. She will teach you to be more flexible and elongate your muscles so you grow taller.
+ ", allDay:false, color:"#DB7093")
+Event.create(title: ' Dance Training', trainer_id: 10, start: "2020-07-22T18:30:00", end: "2020-07-22T19:30:00", details:"Olenka Kotyk will teach you how to dance more beautifully than you ever imagined possible. She will teach you to be more flexible and elongate your muscles so you grow taller.
+ ", allDay:false, color:"#DB7093")
+Event.create(title: ' Dance Training', trainer_id: 10, start: "2020-07-29T18:30:00", end: "2020-07-29T19:30:00", details:"Olenka Kotyk will teach you how to dance more beautifully than you ever imagined possible. She will teach you to be more flexible and elongate your muscles so you grow taller.
  ", allDay:false, color:"#DB7093")
 
 
@@ -170,13 +183,15 @@ Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-07-07T17:30
 Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-07-14T17:30:00", end: "2020-07-14T18:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, color:"#5F9EA0")
 Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-08-22T17:30:00", end: "2020-08-22T18:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, color:"#5F9EA0")
 Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-08-29T17:30:00", end: "2020-08-29T18:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, color:"#5F9EA0")
-Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-09-05T17:30:00", end: "2020-09-05T18:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, color:"#5F9EA0")
+Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-08-25T17:30:00", end: "2020-08-25T18:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, color:"#5F9EA0")
+Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-08-18T17:30:00", end: "2020-08-18T18:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, color:"#5F9EA0")
 
 
 Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-03T08:30:00", end: "2020-07-03T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, color:"#FF7F50")
 Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-10T08:30:00", end: "2020-07-10T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, color:"#FF7F50")
 Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-17T08:30:00", end: "2020-07-17T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, color:"#FF7F50")
 Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-24T08:30:00", end: "2020-07-24T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, color:"#FF7F50")
+Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-30T08:30:00", end: "2020-07-30T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, color:"#FF7F50")
 
 
 
