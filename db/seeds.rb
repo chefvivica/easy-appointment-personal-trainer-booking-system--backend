@@ -67,6 +67,10 @@ Event.create(title: "Event to prep for", trainer_id:3, start: "2020-07-22T18:00:
 Event.create(title: "Event to prep for", trainer_id:3, start: "2020-07-08T18:00:00", end: "2020-07-08T19:00:00", details:"Zhi Sun will help you to best prep for Athletic event or competition, Vacation, Wedding", allDay:false, color:"#6495ED")
 Event.create(title: "Event to prep for", trainer_id:3, start: "2020-07-29T18:00:00", end: "2020-07-29T19:00:00", details:"Zhi Sun will help you to best prep for Athletic event or competition, Vacation, Wedding", allDay:false, color:"#6495ED")
 Event.create(title: "Event to prep for", trainer_id:3, start: "2020-08-04T18:00:00", end: "2020-08-04T19:00:00", details:"Zhi Sun will help you to best prep for Athletic event or competition, Vacation, Wedding", allDay:false, color:"#6495ED")
+Event.create(title: "Event to prep for", trainer_id:3, start: "2020-07-12T18:00:00", end: "2020-07-12T19:00:00", details:"Zhi Sun will help you to best prep for Athletic event or competition, Vacation, Wedding", allDay:false, color:"#6495ED")
+Event.create(title: "Event to prep for", trainer_id:3, start: "2020-07-14T18:00:00", end: "2020-07-14T19:00:00", details:"Zhi Sun will help you to best prep for Athletic event or competition, Vacation, Wedding", allDay:false, color:"#6495ED")
+Event.create(title: "Event to prep for", trainer_id:3, start: "2020-07-18T18:00:00", end: "2020-07-18T19:00:00", details:"Zhi Sun will help you to best prep for Athletic event or competition, Vacation, Wedding", allDay:false, color:"#6495ED")
+Event.create(title: "Event to prep for", trainer_id:3, start: "2020-07-17T18:00:00", end: "2020-07-17T19:00:00", details:"Zhi Sun will help you to best prep for Athletic event or competition, Vacation, Wedding", allDay:false, color:"#6495ED")
 
 
 
@@ -157,11 +161,12 @@ Event.create(title: ' Running Unknown', trainer_id: 8, start: "2020-07-27T06:00:
 ", allDay:false, color:"#CD5C5C")
 
 
-Event.create(title: 'Reversing Knee Pain', trainer_id: 9, start: "2020-07-04T012:00:00", end: "2020-07-04T13:00:00", details:" Abi Keenan can make your knees feel fluid again. Your knees will feel healthy after 10 sessions, you’ll be able to jump and play sports again. You won’t believe how much better and stronger your knees will feel",  allDay:false, color:"#B8860B", )
-Event.create(title: 'Reversing Knee Pain', trainer_id: 9, start: "2020-07-11T012:00:00", end: "2020-07-11T13:00:00", details:" Abi Keenan can make your knees feel fluid again. Your knees will feel healthy after 10 sessions, you’ll be able to jump and play sports again. You won’t believe how much better and stronger your knees will feel",  allDay:false, color:"#B8860B", )
-Event.create(title: 'Reversing Knee Pain', trainer_id: 9, start: "2020-07-17T012:00:00", end: "2020-07-17T13:00:00", details:" Abi Keenan can make your knees feel fluid again. Your knees will feel healthy after 10 sessions, you’ll be able to jump and play sports again. You won’t believe how much better and stronger your knees will feel",  allDay:false, color:"#B8860B", )
-Event.create(title: 'Reversing Knee Pain', trainer_id: 9, start: "2020-08-14T012:00:00", end: "2020-08-14T13:00:00", details:" Abi Keenan can make your knees feel fluid again. Your knees will feel healthy after 10 sessions, you’ll be able to jump and play sports again. You won’t believe how much better and stronger your knees will feel",  allDay:false, color:"#B8860B", )
-Event.create(title: 'Reversing Knee Pain', trainer_id: 9, start: "2020-08-21T012:00:00", end: "2020-08-21T13:00:00", details:" Abi Keenan can make your knees feel fluid again. Your knees will feel healthy after 10 sessions, you’ll be able to jump and play sports again. You won’t believe how much better and stronger your knees will feel",  allDay:false, color:"#B8860B", )
+Event.create(title: 'Reversing Knee Pain', trainer_id: 9, start: "2020-07-04T12:00:00", end: "2020-07-04T13:00:00", details:" Abi Keenan can make your knees feel fluid again. Your knees will feel healthy after 10 sessions, you’ll be able to jump and play sports again. You won’t believe how much better and stronger your knees will feel",  allDay:false, color:"#B8860B", )
+Event.create(title: 'Reversing Knee Pain', trainer_id: 9, start: "2020-07-11T12:00:00", end: "2020-07-11T13:00:00", details:" Abi Keenan can make your knees feel fluid again. Your knees will feel healthy after 10 sessions, you’ll be able to jump and play sports again. You won’t believe how much better and stronger your knees will feel",  allDay:false, color:"#B8860B", )
+Event.create(title: 'Reversing Knee Pain', trainer_id: 9, start: "2020-07-17T12:00:00", end: "2020-07-17T13:00:00", details:" Abi Keenan can make your knees feel fluid again. Your knees will feel healthy after 10 sessions, you’ll be able to jump and play sports again. You won’t believe how much better and stronger your knees will feel",  allDay:false, color:"#B8860B", )
+Event.create(title: 'Reversing Knee Pain', trainer_id: 9, start: "2020-08-14T12:00:00", end: "2020-08-14T13:00:00", details:" Abi Keenan can make your knees feel fluid again. Your knees will feel healthy after 10 sessions, you’ll be able to jump and play sports again. You won’t believe how much better and stronger your knees will feel",  allDay:false, color:"#B8860B", )
+Event.create(title: 'Reversing Knee Pain', trainer_id: 9, start: "2020-08-21T12:00:00", end: "2020-08-21T13:00:00", details:" Abi Keenan can make your knees feel fluid again. Your knees will feel healthy after 10 sessions, you’ll be able to jump and play sports again. You won’t believe how much better and stronger your knees will feel",  allDay:false, color:"#B8860B", )
+Event.create(title: 'Reversing Knee Pain', trainer_id: 9, start: "2020-08-28T12:00:00", end: "2020-08-28T13:00:00", details:" Abi Keenan can make your knees feel fluid again. Your knees will feel healthy after 10 sessions, you’ll be able to jump and play sports again. You won’t believe how much better and stronger your knees will feel",  allDay:false, color:"#B8860B", )
 
 
 
@@ -185,6 +190,9 @@ Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-08-22T17:30
 Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-08-29T17:30:00", end: "2020-08-29T18:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, color:"#5F9EA0")
 Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-08-25T17:30:00", end: "2020-08-25T18:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, color:"#5F9EA0")
 Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-08-18T17:30:00", end: "2020-08-18T18:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, color:"#5F9EA0")
+Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-07-11T17:30:00", end: "2020-07-11T18:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, color:"#5F9EA0")
+Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-07-13T17:30:00", end: "2020-07-13T18:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, color:"#5F9EA0")
+Event.create(title: ' Upper Body Mass', trainer_id: 11, start: "2020-07-18T17:30:00", end: "2020-07-18T18:30:00", details:"Alora Griffiths will help you look thicker in your upper body, using only lower body exercises. This counterintuitive training is a secret method to quickly build shoulder and back size.  ", allDay:false, color:"#5F9EA0")
 
 
 Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-03T08:30:00", end: "2020-07-03T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, color:"#FF7F50")
@@ -192,11 +200,13 @@ Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-10T08:30:0
 Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-17T08:30:00", end: "2020-07-17T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, color:"#FF7F50")
 Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-24T08:30:00", end: "2020-07-24T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, color:"#FF7F50")
 Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-30T08:30:00", end: "2020-07-30T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, color:"#FF7F50")
+Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-07T08:30:00", end: "2020-07-07T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, color:"#FF7F50")
+Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-22T08:30:00", end: "2020-07-22T09:30:00", details:" Gan Laughlin has an innovative training module to make your knees bulletproof and put inches on your vertical. Gan trained himself from a 15 inch vertical to a 36 inch dunking machine.", allDay:false, color:"#FF7F50")
 
 
 
 
-url = RestClient.get("https://randomuser.me/api/?results=100&inc=name,picture,phone,email")
+url = RestClient.get("https://randomuser.me/api/?results=50&inc=name,picture,phone,email")
 results = JSON.parse(url)["results"]
 data = results
 
@@ -204,17 +214,15 @@ puts "user"
 data.each do |user_hash| 
   User.create(username: user_hash['name']['last'], email: user_hash['email'], phone_number: user_hash['phone'], image: user_hash['picture']['medium'])
 end 
-User.create(username: "vivica", email:"vivicacongma@gmail.com",phone_number: "+9178537076", image:'https://i.pinimg.com/236x/e7/bb/02/e7bb022e4cdcc7f47d2f9f20077ea6da.jpg')
+User.create(username: "Vivica", email:"vivicacongma@gmail.com",phone_number: "+7313939391", image:'https://i.pinimg.com/236x/e7/bb/02/e7bb022e4cdcc7f47d2f9f20077ea6da.jpg')
 
 puts "Appointment"
 
-300.times do 
+400.times do 
 Appointment.create(user_id: User.all.sample.id, event_id: Event.all.sample.id);
 end 
 
 
-puts 'request'
-Request.create(user_id: 1, title:"private swim lesson", detail: "A beginner wanted to learn how to swim", start: '2020-07-18T14:30:00', end: '2020-07-18T17:30:00', trainer_id:2, color:"#FF0000")
 
 
 
