@@ -206,7 +206,7 @@ Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-22T08:30:0
 
 
 
-url = RestClient.get("https://randomuser.me/api/?results=50&inc=name,picture,phone,email")
+url = RestClient.get("https://randomuser.me/api/?results=10&inc=name,picture,phone,email")
 results = JSON.parse(url)["results"]
 data = results
 
@@ -218,7 +218,7 @@ end
 
 puts "Appointment"
 
-400.times do 
+10.times do 
 Appointment.create(user_id: User.all.sample.id, event_id: Event.all.sample.id);
 end 
 
