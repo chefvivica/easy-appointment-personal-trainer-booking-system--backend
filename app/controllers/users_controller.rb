@@ -17,22 +17,31 @@ class UsersController < ApplicationController
   end
 
   def create
-    user = User.new(user_params)
-    user.save
-    render json: user.to_json(:include => {
-      :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
-      :requests => {:only => [:title,:start,:end,:trainer_id, :detail]},
-    }, :except => [:created_at,:updated_at])  
+    user = User.new(
+      username: params[:username],
+      password: params[:password],
+      phone_number: params[:phone_number],
+      email: params[:email],
+      image: params[:image]
+    )
+    if user.save
+      render json: user.to_json
+      # token = encode_token(user.id)
+      # render json: {user: user, token: token}
+    else
+      render json: {errors: user.errors.full_messages}
+    end
+
   end
 
-  def update
-    user = User.find(params[:id])
-    user.update(user_params)
-    render json: user.to_json(:include => {
-      :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
-      :requests => {:only => [:title,:start,:end,:trainer_id, :detail]},
-    }, :except => [:created_at,:updated_at])  
-  end
+  # def update
+  #   user = User.find(params[:id])
+  #   user.update(user_params)
+  #   render json: user.to_json(:include => {
+  #     :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
+  #     :requests => {:only => [:title,:start,:end,:trainer_id, :detail]},
+  #   }, :except => [:created_at,:updated_at])  
+  # end
 
   def delete
     user = User.find(params[:id])
@@ -40,10 +49,5 @@ class UsersController < ApplicationController
     render json: user.to_json  
   end
 
-  private
-
-  def user_params
-    params.require(:user).permit(:username, :password,:phone_number, :email, :image)
-  end
 
 end
