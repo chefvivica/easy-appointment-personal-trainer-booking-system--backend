@@ -1,21 +1,4 @@
 class RequestsController < ApplicationController
-  def index
-    requests = Request.all
-    render json: requests.to_json(:include => {
-      :user => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
-    }, :except => [:created_at,:updated_at])  
-  end
-
-
-  def show
-    request = Request.find(params[:id])
-    render json: request.to_json(:include => {
-      :user => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
-    }, :except => [:created_at,:updated_at])  
-  end
-
   def create
     request = Request.new(request_params)
     request.save
