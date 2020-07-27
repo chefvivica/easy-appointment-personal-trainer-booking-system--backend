@@ -17,8 +17,12 @@ class AuthController < ApplicationController
   end
 
   def auto_login
-    if session_user
-      render json: session_user
+    user = User.find_by(id: request.headers['Authorization'])
+    if user
+      render json: user.to_json(:include => {
+        :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
+        :requests => {:only => [:title,:start,:end,:trainer_id, :detail]},
+      }, :except => [:created_at,:updated_at]) 
     else 
       render json: {errors: "That ain't no user I ever heard of!"}
     end
