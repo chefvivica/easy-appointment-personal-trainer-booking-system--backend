@@ -37,14 +37,14 @@ class UsersController < ApplicationController
 
   end
 
-  # def update
-  #   user = User.find(params[:id])
-  #   user.update(user_params)
-  #   render json: user.to_json(:include => {
-  #     :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
-  #     :requests => {:only => [:title,:start,:end,:trainer_id, :detail]},
-  #   }, :except => [:created_at,:updated_at])  
-  # end
+  def update
+    user = User.find(params[:id])
+    user.update(user_params)
+    render json: user.to_json(:include => {
+      :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
+      :requests => {:only => [:title,:start,:end,:trainer_id, :detail]},
+    }, :except => [:created_at,:updated_at])  
+  end
 
   def delete
     user = User.find(params[:id])
@@ -52,5 +52,10 @@ class UsersController < ApplicationController
     render json: user.to_json  
   end
 
+  private
+
+  def user_params
+    params.require(:user).permit(:username, :password,:phone_number, :email, :image)
+  end
 
 end
