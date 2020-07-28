@@ -8,3 +8,4 @@ class User < ApplicationRecord
   validates :password, presence: true, on: :create
   has_secure_password
 end
+

@@ -206,20 +206,20 @@ Event.create(title: ' Jump Training', trainer_id: 12, start: "2020-07-22T08:30:0
 
 
 
-url = RestClient.get("https://randomuser.me/api/?results=10&inc=name,picture,phone,email")
-results = JSON.parse(url)["results"]
-data = results
+# url = RestClient.get("https://randomuser.me/api/?results=20&inc=name,picture,phone,email")
+# results = JSON.parse(url)["results"]
+# data = results
 
-puts "user"
-data.each do |user_hash| 
-  User.create(username: user_hash['name']['last'], email: user_hash['email'], phone_number: user_hash['phone'], image: user_hash['picture']['medium'])
-end 
+# puts "user"
+# data.each do |user_hash| 
+#   User.create(username: user_hash['name']['last'], email: user_hash['email'], phone_number: user_hash['phone'], image: user_hash['picture']['medium'])
+# end 
 
 
 puts "Appointment"
 
-10.times do 
-Appointment.create(user_id: User.all.sample.id, event_id: Event.all.sample.id);
+60.times do 
+Appointment.create(user_id: rand(1..20), event_id: rand(1..82));
 end 
 
 
