@@ -5,12 +5,12 @@ class AuthController < ApplicationController
     user = User.find_by(username: params[:username])
 
     if user && user.authenticate(params[:password])
-      # token = encode_token(user.id)
-      # render json: {user: user, token: token}
+      # token = JWT.encode({user_id:user.id}, 'super_secret_code')
       render json: user.to_json(:include => {
         :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
         :requests => {:only => [:title,:start,:end,:trainer_id, :detail]},
-      }, :except => [:created_at,:updated_at])  
+      }, :except => [:created_at,:updated_at])
+     
     else
       render json: {errors: "oops, please try again!"}
     end
