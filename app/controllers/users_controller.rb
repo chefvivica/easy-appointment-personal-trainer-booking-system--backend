@@ -2,18 +2,12 @@ class UsersController < ApplicationController
   
   def index 
     users = User.all 
-    render  json:users.to_json(:include => {
-      :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
-      :requests => {:only => [:title,:start,:end,:trainer_id, :detail]},
-    }, :except => [:created_at,:updated_at])  
+    render json: users, each_serializer: UserSerializer
   end 
   
   def show
     user = User.find(params[:id])
-    render json: user.to_json(:include => {
-      :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
-      :requests => {:only => [:title,:start,:end,:trainer_id, :detail]},
-    }, :except => [:created_at,:updated_at])  
+    render json: user, each_serializer: UserSerializer  
   end
 
   def create
@@ -25,12 +19,8 @@ class UsersController < ApplicationController
       image: params[:image]
     )
     if user.save
-      render json: user.to_json(:include => {
-        :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
-        :requests => {:only => [:title,:start,:end,:trainer_id, :detail]},
-      }, :except => [:created_at,:updated_at])  
-      # token = encode_token(user.id)
-      # render json: {user: user, token: token}
+      token = JWT.encode({user_id:user.id}, 'super_secret_code')
+      render json: {user: UserSerializer.new(user), token:token } 
     else
       render json: {errors: user.errors.full_messages}
     end
@@ -40,10 +30,7 @@ class UsersController < ApplicationController
   def update
     user = User.find(params[:id])
     user.update(user_params)
-    render json: user.to_json(:include => {
-      :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
-      :requests => {:only => [:title,:start,:end,:trainer_id, :detail]},
-    }, :except => [:created_at,:updated_at])  
+    render json: user, each_serializer: UserSerializer
   end
 
   def delete
