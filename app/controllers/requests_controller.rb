@@ -1,20 +1,15 @@
 class RequestsController < ApplicationController
+
   def create
     request = Request.new(request_params)
     request.save
-    render json: request.to_json(:include => {
-      :user => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
-    }, :except => [:created_at,:updated_at])  
+    render json: request, each_serializer: RequestSerializer
   end
 
   def update
     request = Request.find(params[:id])
     request.update(request_params)
-    render json: request.to_json(:include => {
-      :user => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
-    }, :except => [:created_at,:updated_at])  
+    render json: request, each_serializer: RequestSerializer
   end
 
   def delete

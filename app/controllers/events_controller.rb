@@ -2,37 +2,24 @@ class EventsController < ApplicationController
 
   def index
     events = Event.all
-    render json: events.to_json(:include => {
-      :users => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
-    }, :except => [:created_at,:updated_at])  
+    render json: events,  each_serializer: EventSerializer
   end
 
 
   def show
     event = Event.find(params[:id])
-    render json: event.to_json(:include => {
-      :users => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
-    }, :except => [:created_at,:updated_at])  
+    render json: event,  each_serializer: EventSerializer
   end
 
   def create
     event = Event.new(event_params)
     event.save
-    render json: event.to_json(:include => {
-      :users => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
-    }, :except => [:created_at,:updated_at])  
+    render json: event,  each_serializer: EventSerializer
   end
 
   def update
     event = Event.find(params[:id])
-    event.update(event_params)
-    render json: event.to_json(:include => {
-      :users => {:only => [:username,:image,:email,:phone_number,:password]},
-      :trainer => {:only => [:name,:bio,:email,:image, :sports]}
-    }, :except => [:created_at,:updated_at])  
+    render json: event,  each_serializer: EventSerializer  
   end
 
   def delete
