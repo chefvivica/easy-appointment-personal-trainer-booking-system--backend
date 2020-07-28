@@ -14,18 +14,12 @@ class AuthController < ApplicationController
   end
 
   def auto_login
-    user = User.find_by(id: request.headers['Authorization'])
+    user = User.find_by(id: JWT.decode(request.headers["Authorization"],'super_secret_code' )[0]['user_id'])
     if user
-      token = JWT.encode({user_id:user.id}, 'super_secret_code')
-      render json: {user: UserSerializer.new(user), token:token } 
+      render json: user, each_serializer: UserSerializer
     else 
       render json: {errors: "That ain't no user I ever heard of!"}
     end
     
   end
 end
-
-# render json: user.to_json(:include => {
-#   :events => {:only => [:title,:start,:end,:allDay,:event_type,:trainer_id, :details]},
-#   :requests => {:only => [:title,:start,:end,:trainer_id, :detail]},
-# }, :except => [:created_at,:updated_at]) 
