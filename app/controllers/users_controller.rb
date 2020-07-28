@@ -19,9 +19,8 @@ class UsersController < ApplicationController
       image: params[:image]
     )
     if user.save
-      render json: user, each_serializer: UserSerializer 
-      token = encode_token(user.id)
-      render json: {user: user, token: token}, each_serializer: UserSerializer
+      token = JWT.encode({user_id:user.id}, 'super_secret_code')
+      render json: {user: UserSerializer.new(user), token:token } 
     else
       render json: {errors: user.errors.full_messages}
     end
